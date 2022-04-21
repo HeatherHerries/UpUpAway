@@ -1,1 +1,1 @@
-alert("GET THE FUCK OUT!!!");
+import "../styles/styles.css";
