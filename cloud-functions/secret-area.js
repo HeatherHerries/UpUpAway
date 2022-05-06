@@ -1,7 +1,7 @@
 exports.handler = function(event, context, callback) {
   const secretContent = `
-  <h3>Welcome To The Secret Area!</h3>
-  <p>Here we can tell you that the sky is <strong>blue</strong> and that 2 + 2 = 4.</p>
+  <h3>Welcome To The VIP Section!</h3>
+  <p>Her you can find proprietary details and specials about your next adventure!</p>
   `;
 
   let body;
