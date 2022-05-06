@@ -7,7 +7,6 @@
 
   &__input {
     flex: 1;
-    box-shadow: none;
   }
 
   &__error {
