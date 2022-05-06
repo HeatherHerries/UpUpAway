@@ -1,0 +1,16 @@
+.vip-section {
+  padding: 30px;
+
+  &__form {
+    display: flex;
+  }
+
+  &__input {
+    flex: 1;
+    box-shadow: none;
+  }
+
+  &__error {
+    color: red;
+  }
+}
