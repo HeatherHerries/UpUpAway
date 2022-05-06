@@ -26,7 +26,7 @@ class VIPSection {
         this.contentArea.innerHTML = response.data;
       })
       .catch(() => {
-        this.contentArea.innerHTML = `<p class="vip-section__error>That password is incorrect. Please try again.</p>`;
+        this.contentArea.innerHTML = `<p class="vip-section__error">That password is incorrect. Please try again.</p>`;
         this.field.value = "";
         this.field.focus();
       });
