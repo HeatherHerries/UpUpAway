@@ -3,16 +3,7 @@ import "lazysizes";
 import MobileMenu from "./modules/MobileMenu";
 import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
-import VIPSection from "./modules/VIPSection";
-import React from "react";
-import ReactDOM from "react-dom";
 
-ReactDOM.render(
-  <MyAmazingComponent />,
-  document.querySelector("#my-react-example")
-);
-
-new VIPSection();
 new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 60);
